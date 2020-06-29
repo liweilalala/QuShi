@@ -1,0 +1,53 @@
+<scroll-view scroll-y="true" class="container" enable-flex="true">
+	<view class="article">
+		<view class="title">
+			<text class="question-title">{{detail_data.title}}</text>
+		</view>
+		<view class="answerer-wrp">
+			<view class="answerer">
+				<view class="avatar">
+					<image src="{{detail_data.authoravatarUrl}}"></image>
+				</view>
+				<view class="answerer-info">
+					<text class="answerer-name">{{detail_data.authorname}}</text>
+				</view>
+			</view>
+		</view>
+		<view class="answer-content">
+			<text>{{detail_data.summary}}</text>
+			<image src="{{detail_data.image}}"></image>
+			<text>{{detail_data.content}}</text>
+		</view>
+
+		<view class="allcomments"> 
+			<scroll-view  wx:if="{{boolcomments}}" scroll-y="true" enable-flex="true">
+			<block wx:key="key" wx:for="{{comments}}" wx:for-item="item">
+				<view class="comments">
+					<image mode='aspectFill' src="{{item.avatar}}"></image>
+					<text class="cname">{{item.name}}：</text>
+					<text class="cc">{{item.comment}}</text>
+				</view>
+			</block>
+		  </scroll-view>
+		</view>
+
+		<view class="detail-footer">
+			<view class="ps">
+				<view class="praise">
+					<image src="{{praisep}}" class="praiseimage" bindtap="praise"></image>
+					<text>点赞{{detail_data.praise}}</text>
+				</view>
+				<view class="star">
+					<image src="{{starp}}" class="starimage" bindtap="star"></image>
+					<text>收藏{{detail_data.star}}</text>
+				</view>
+				<form bindsubmit="Bindsubmit" >
+					<view class="give_comment">
+						<input placeholder="评论一下"  name="c" value="{{a}}" />
+						<button formType="submit">提交</button>
+					</view>
+				</form>
+			</view>
+		</view>
+	</view>
+</scroll-view>

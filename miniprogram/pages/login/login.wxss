@@ -1,0 +1,22 @@
+page{
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590780564642&di=10bb1848498068633ff53518a6e9ed72&imgtype=0&src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F500fd9f9d72a6059c7b2b8872a34349b023bba89.jpg');
+  background-size:125%;
+}
+.head{
+  margin-top: 200rpx;
+  height: 400rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size: cover;
+}
+.loginbt{
+  background-color: rgb(24, 124, 255);
+  border-radius: 50rpx;
+}

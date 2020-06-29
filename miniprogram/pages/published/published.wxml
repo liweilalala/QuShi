@@ -1,0 +1,5 @@
+<!--miniprogram/pages/published/published.wxml-->
+<view class="aa">
+<image src="../../images/success.png" class="success"></image>
+</view>
+<button class="btn" bindtap="goback">点击返回</button>

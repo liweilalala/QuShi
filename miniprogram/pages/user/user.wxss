@@ -1,0 +1,33 @@
+/* miniprogram/pages/user/user.wxss */
+.userinfo{
+  display: flex;
+  height: 200rpx;
+  border-radius:2%;
+}
+.userinfo-avatar{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  margin-left: 150rpx;
+  background-color: rgba(91, 77, 73, 0.33);
+}
+.userinfo-nickname{
+  margin-left: 50rpx; 
+}
+.login{
+  background-color: rgba(48, 254, 216, 0.673);
+  margin-left: 0rpx;
+}
+.my{
+  background-color: white;
+  display: flex;
+  height: 150rpx;
+  width: 100%;
+  border-radius:2%;
+  border: 1rpx rgba(0, 0, 0, 0.241) solid;
+}
+.text{
+  margin: auto;
+  font-size: 50rpx;
+}

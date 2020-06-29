@@ -1,0 +1,169 @@
+.article{
+  padding: 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+
+.title{
+  position: relative;
+  width: 650rpx;
+  padding: 40rpx 50rpx 30rpx;
+  background: #298DE5;
+  color: #fff;
+  font-size: 38rpx;
+  line-height: 48rpx;
+}
+.answerer-wrp{
+  position: relative;
+  width: 750rpx;
+  height: 150rpx;
+  background: rgb(255, 254, 254);
+}
+
+.answerer {
+  display: flex;
+  margin: 0 auto;
+  width: 630rpx;
+  height: 90rpx;
+  padding: 30rpx;
+  background: rgb(226, 226, 226);
+  border: solid 1px #ebebeb;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px #bebebe;
+}
+.answerer.avatar {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.answerer .avatar image {
+  display: inline-block;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+}
+.answerer .answerer-info{
+  display: flex;
+  /*align-items: center; 水平居中*/
+  justify-content: center; /*垂直居中*/
+  text-align: left;
+
+}
+.answerer .answerer-name{
+  display: flex;
+  justify-content: center; /*垂直居中*/
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+}
+.answerer .answerer-info .answerer-name{
+  font-size: 32rpx;
+}
+.answerer .answerer-info .answerer-des{
+  font-size: 22rpx;
+  color: #808080;
+  line-height: 28rpx;
+}
+.answerer .follow{
+  flex: 2;
+  padding: 15rpx 0;
+  font-size: 22rpx;
+}
+.answerer .follow text{
+  display: inline-block;
+  padding: 15rpx 20rpx;
+  color: #40bcd0;
+  border: solid 2px #40bcd0;
+  border-radius: 6rpx;
+}
+.answer-content{
+  padding: 30rpx 40rpx;
+  background: #ffffff;
+}
+.answer-content text{
+  font-size: 32rpx;
+  color: #454545;
+  line-height: 44rpx;
+}
+.answer-content image{
+  width: 100%;
+  margin: 20rpx 0;
+}
+.allcomments{
+  margin-bottom: 70rpx;
+}
+.comments{
+  display: flex;
+  padding-bottom: 20rpx;
+  border-top: 1px solid rgb(157, 157, 157);
+  border-bottom:1px solid rgb(157, 157, 157);
+  border-radius: 10rpx;
+}
+.comments image{
+  margin-top: 10rpx;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.cname{
+  font-size: 30rpx;
+  margin-top:20rpx;
+}
+.cc{
+  font-size: 30rpx;
+  margin-top:20rpx;
+  width: 500rpx;
+}
+
+.detail-footer{
+  position: fixed;
+  bottom: 0;
+  height: 70rpx;
+  border-top: solid 1px #ebebeb;
+  background: #ffffff;
+  width: 100%;
+}
+.ps{
+  display:flex;
+  align-items: center;
+  /*justify-content: center;  */
+}
+.praise{
+  margin-left: 50rpx;
+}
+.star{
+  margin-left: 0rpx;
+}
+.praiseimage{
+  width: 50rpx;
+  height: 50rpx;
+}
+.starimage{
+  width: 50rpx;
+  height: 50rpx;
+}
+.praise text{
+  flex:1;
+  text-align:center;
+  font-size: larger;
+}
+.star text{
+  flex:2;
+  text-align:center;
+  font-size: larger;
+}
+.give_comment{
+  display: flex;
+}
+.give_comment input{
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  height: 50rpx;
+  width: 400rpx;
+  background-color: rgba(220, 218, 218, 0.227);
+  font-size: 30rpx;
+}
+.give_comment button{
+  background-color: dodgerblue;
+  font-size: 30rpx;
+}

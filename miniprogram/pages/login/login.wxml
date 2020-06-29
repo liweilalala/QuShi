@@ -1,0 +1,6 @@
+<view class="background">
+	<view class="head">
+		<image wx:if="{{avatarUrl}}" class="userinfo-avatar" style="background-image: url({{avatarUrl}})" mode="aspectFit"></image>
+	</view>
+	<button style="width:30%" class="loginbt" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">登陆</button>
+</view>

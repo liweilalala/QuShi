@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/browse/browse",
+    "pages/login/login",
+    "pages/publish/publish",
+    "pages/user/user",
+    "pages/browse/detail/detail",
+    "pages/user/mypl/mypl",
+    "pages/published/published",
+    "pages/user/mystar/mystar"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "趣识",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/browse/browse",
+        "text": "浏览",
+        "iconPath": "images/browse.png",
+        "selectedIconPath": "images/selectedbrowse.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "上传",
+        "iconPath": "images/publish.png",
+        "selectedIconPath": "images/selectedpublish.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/selecteduser.png"
+      }
+    ],
+    "color": "96A3B2",
+    "selectedColor": "#0767C8",
+    "backgroundColor": "#D4FFD1",
+    "borderStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

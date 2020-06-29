@@ -1,0 +1,34 @@
+<scroll-view scroll-y="true" class="container" enable-flex="true">
+	<block wx:for="{{myarticle}}" wx:key="key" wx:for-index="idx" wx:for-item="item" wx:for-index="index" data-idx="{{idx}}">
+		<view class="feed-item" data-index="{{index}}" bindtap="godetail" >
+			<view class="feed-source">
+				<a class="">
+					<view class="avatar">
+						<image src="{{item.authoravatarUrl}}"></image>
+					</view>
+					<text>{{item.authorname}}</text>
+				</a>
+			</view>
+			<view class="feed-content">
+				<view class="question">
+					<a class="question-link">
+						<text>{{item.title}}</text>
+					</a>
+				</view>
+				<view class="answer-body">
+					<view >
+						<text class="answer-txt">{{item.summary}}</text>
+					</view>
+					<view class="answer-actions" >
+						<view class="like dot">
+							<a>{{item.praise}} 点赞 </a>
+						</view>
+						<view class="comments dot">
+							<a>{{item.star}} 收藏 </a>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</block>
+</scroll-view>

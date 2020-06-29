@@ -1,0 +1,12 @@
+.aa{
+  display: flex;
+}
+.success{
+  width: 400rpx;
+  height: 400rpx;
+  margin: auto;
+  margin-top: 150rpx;
+}
+.btn{
+  margin-top: 100rpx;
+}

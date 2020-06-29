@@ -1,0 +1,16 @@
+<view class="container">
+	<view class="userinfo" wx:if="{{logined}}">
+		<image style="background-image: url({{userInfo.avatarUrl}})" class="userinfo-avatar"></image>
+		<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+	</view>
+	<view class="userinfo" wx:if="{{!logined}}">
+		<view class="userinfo-avatar"></view>
+		<button class="login" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">登陆/注册</button>
+	</view>
+	<view class="my" bindtap="mypl">
+		<text class="text">我的发布</text>
+	</view>
+	<view class="my" bindtap="mystar">
+		<text class="text">我的收藏</text>
+	</view>
+</view>

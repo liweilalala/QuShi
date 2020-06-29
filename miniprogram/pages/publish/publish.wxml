@@ -1,0 +1,22 @@
+<form bindsubmit="Bindsubmit">
+	<view>
+		<view class="Tips">
+			<text class="tips">在下方输入文章内容</text>
+		</view>
+		<view class="origin">
+			<textarea placeholder="标题"  name="title" class="input"  value="{{a}}" />
+			<textarea placeholder="概要" class="gaiyao" name="summary" value="{{a}}" />
+			<view class="Neirong">
+            <textarea maxlength="-1" placeholder="内容" class="neirong" name="content" value="{{a}}" /> 
+        <view class="chooseImage">
+          <view class="images" bindtap="image">
+          	<image style="margin-top:20rpx;width:100rpx;height:100rpx;  background-color: #f1f1f1;" mode="aspectFit" src='../../images/camera.png'></image>
+          	<text style="color:rgb(140,140,140);font-size:30rpx;margin-top:15rpx;">选择图片</text>
+          </view>
+          <image mode="aspectFill" wx:if="{{tempFilePaths}}" src='{{tempFilePaths}}' class="Image"></image>
+        </view>
+      </view>
+			<button class="ensure" formType="submit">OK</button>
+		</view>
+	</view>
+</form>

@@ -1,0 +1,61 @@
+
+.Tips{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  border-radius: 30rpx;
+  height: 65rpx;
+  width: 95.7%;
+  border: 2rpx rgba(165, 165, 165, 0.356) solid;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+}
+.gaiyao{
+  border-radius: 30rpx;
+  height: 200rpx;
+  width: 95.7%;
+  border: 2rpx rgba(165, 165, 165, 0.356) solid;
+  padding-left: 30rpx;
+  padding-top: 10rpx;
+}
+.neirong{
+  height: 400rpx;
+  width: 99%;
+  border: 0rpx rgba(165, 165, 165, 0.356) solid;
+  padding-left: 30rpx;
+  padding-top: 10rpx;
+  padding-right: 100rpx;
+}
+.Neirong{
+  border-radius: 5%;
+  border: 2rpx rgba(165, 165, 165, 0.356) solid;
+}
+.images {
+  margin-left: 10rpx;
+  margin-top: 35rpx;
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #f1f1f1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8%;
+}
+.Image {
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 10rpx;
+  border-radius: 8%;
+}
+.chooseImage{
+  display: flex;
+  width: 100%;
+  margin-bottom: 0rpx;
+}
+.ensure{
+  width: 80%;
+  background-color: rgb(166, 177, 177);
+  border-radius: 40rpx;
+}
